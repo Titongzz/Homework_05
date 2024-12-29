@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+header .from {
+  padding-top: 50px;
+  text-align: center;
+}
+header .from p {
+  color: gray;
+  font-size: 15px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+/* main */
+
+.banner .row {
+  width: 100%;
+  display: flex;
+}
+.banner .row .col-4 {
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.banner .row .col-4 .card {
+  box-shadow: 1px 1px 20px gray;
+  width: 100%;
+  height: 500px;
+  border-radius: 5px;
+}
+.banner .row .col-4 .card-image {
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: gray;
+}
+.banner .row .col-4 .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner .row .col-4 .card .card-title {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.banner .row .col-4 .card .card-title h5 {
+  width: 48px;
+  padding: 6px;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background-color: rgb(49, 49, 230);
+}
+.banner .row .col-4 .card .card-title h3 {
+  margin-bottom: 10px;
+}
+.banner .row .col-4 .card .card-title p {
+  color: gray;
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+.banner .row .col-4 .card .card-title .phara {
+  margin-bottom: 110px;
+}
+.banner .row .col-4 .card .card-title .phara-2 {
+  margin-bottom: 105px;
+}
+.banner .row .col-4 .card .profile {
+  display: flex;
+  margin-top: 80px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.banner .row .col-4 .card .profile h5 {
+  color: rgb(56, 56, 56);
+  font-size: 8px;
+  padding-top: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 20px;
+  border-radius: 50px;
+  background-color: gray;
+}
+.banner .row .col-4 .card .profile .name p {
+  color: gray;
+  font-size: 13px;
+}
